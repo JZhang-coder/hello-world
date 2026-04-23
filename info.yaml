@@ -26,14 +26,14 @@ pinout:
   ui[7]: "Output Enable"
 
   # Outputs
-  uo[0]: "EXTOUT0"
-  uo[1]: "EXTOUT1"
-  uo[2]: "EXTOUT2"
-  uo[3]: "EXTOUT3"
-  uo[4]: "EXTOUT4"
-  uo[5]: "EXTOUT5"
-  uo[6]: "EXTOUT6"
-  uo[7]: "EXTOUT7"
+  uo[0]: "Output Enable"
+  uo[1]: "Load TX"
+  uo[2]: ""
+  uo[3]: ""
+  uo[4]: ""
+  uo[5]: ""
+  uo[6]: ""
+  uo[7]: "UART_TX"
 
   # Bidirectional pins
   uio[0]: ""

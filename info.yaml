@@ -16,24 +16,24 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
+  ui[0]: "Clock"
   ui[1]: ""
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
   ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[6]: "Load TX"
+  ui[7]: "Output Enable"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "EXTOUT0"
+  uo[1]: "EXTOUT1"
+  uo[2]: "EXTOUT2"
+  uo[3]: "EXTOUT3"
+  uo[4]: "EXTOUT4"
+  uo[5]: "EXTOUT5"
+  uo[6]: "EXTOUT6"
+  uo[7]: "EXTOUT7"
 
   # Bidirectional pins
   uio[0]: ""

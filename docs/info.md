@@ -9,11 +9,26 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+
+Customizable UART Transmitter
+
+Supports sending multiple ASCII characters over UART.
+
+Each column of flip flops stores a single ASCII character. 
 
 ## How to test
 
-Explain how to use your project
+
+To begin transmission:
+1. Set the Arduino serial baud rate `Serial.begin(<baud rate>);` in the *.ino file to 300
+2. Set the Wokwi clock frequency `"attrs": { "frequency": "300" }` in the diagram.json to 300 as well 
+3. Set the slide switch to the clock
+4. Set SW7 to OFF ("Load")
+5. Set SW8 to ON ("Output Enable")
+6. Set SW7 to ON ("TX")
+
+If there's no output from the Wokwi Arduino serial monitor, try toggling SW7 OFF and ON again.
+
 
 ## External hardware
 
